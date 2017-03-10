@@ -1,0 +1,22 @@
+{
+  "name": "02-mocha-testing",
+  "version": "1.0.0",
+  "description": "test-luhn-algo",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "/vagrant/MochaChai/node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "luhn",
+    "test"
+  ],
+  "author": "Abhi",
+  "license": "ISC"
+}
