@@ -1,9 +1,10 @@
 module.exports = {
-  myFunction: function(nativeFn){
-    console.log(`Im executing the function from the module that imprted me!`)
-    nativeFn();
-  },
-  sayHello: function(){
-    console.log("Hello World !! Im the sayHello function from exportStuff.")
+  word: "Hello World!",
+  printWord: function(){
+    console.log(`The word returned from private function is ${returnWord(this.word)}`);
   }
-}
+};
+
+function returnWord(word){
+  return word;
+};
